@@ -1,9 +1,14 @@
-body{
+/* Minha folha de estilo
+   André Moura
+*/
+
+body {
     background-color: #eaf3da;
     font-family: Verdana, Geneva, Arial, sans-serif;
     font-size: medium;
     line-height: 1.8em;
 }
+
 h1{
     font-size: 280%;
 }
@@ -61,29 +66,41 @@ h2.font-violet{
 h2.font-salmao{
     color: #dd7ea4;
 }
+
+figure + h4 {
+    line-height: 150%;
+}
+
 code{
     background-color: silver;
 }
-button.navbar-toggler{
-    position:relative;
+
+button.navbar-toggler {
+    position: relative;
     left: 50%;
     transform: translate(-50%);
     float: left;        
-    margin-right:15px;    
-    background-color:transparent;
-    background-image:none;
-    border:1px solid transparent;
-    border-radius:4px;
+    margin-right: 15px;
 }
-a:link{
-    color: #eeeeee;
-    text-decoration: underline;
+
+a {
+    color: #eee;
+    text-decoration: none;
 }
-a:visited{
-    color: #0062cc;
-    text-decoration: underline;
-}
-a:hover{
+
+a:hover {
     background: #f88396;
     color: orange;
+    text-decoration: none;
+}
+
+footer {
+    margin: 30px 40px 20px 0px;
+}
+
+footer div {
+    padding: 10px 0;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
 }
